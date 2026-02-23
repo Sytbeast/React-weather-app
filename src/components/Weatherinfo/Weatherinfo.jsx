@@ -62,7 +62,7 @@ const Weatherinfo = ({ data }) => {
                     Weather Details
                 </div>
 
-                <div className='flex justify-between md:px-20 px-5 font-semibold font-mono text-gray-500'>
+                <div className='flex justify-between text-xs md:text-lg md:px-20 px-5 font-semibold font-mono text-gray-500'>
                     <div className=''>
                         <div>Lon: {data?.coord.lon}°</div>
                         <div>Temp: {data?.main.temp}°C</div>
@@ -86,3 +86,4 @@ const Weatherinfo = ({ data }) => {
 }
 
 export default Weatherinfo
+
